@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="flex justify-center">
         <div className="relative z-10 mx-auto mt-28">
           <div>
-            <Image src={"/images/Rectangle.png"} width={470} height={208} className="lg:max-w-[470px] max-w-[350px]" />
+            <Image src={"/images/Rectangle.png"} width={470} height={208} className="lg:max-w-[470px] max-w-[350px]" alt="image" />
           </div>
           <div className="flex flex-col justify-center">
             <div className="absolute top-[60px] lg:left-[42px] left-[15px]">
@@ -18,6 +18,7 @@ const Hero = () => {
                 src={"/heroElements/Screen_Ele.png"}
                 width={404}
                 height={32}
+                alt="image2"
                 className="lg:max-w-[470px] max-w-[320px]"
               />
             </div>
@@ -30,7 +31,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="absolute top-[382px] lg:top-[555px] left-[50px] lg:left-[80px]">
-              <Image src={"/heroElements/loading.png"} width={320} height={32} className="lg:max-w-[470px] max-w-[250px]" />
+              <Image src={"/heroElements/loading.png"} width={320} height={32} alt="image3" className="lg:max-w-[470px] max-w-[250px]" />
             </div>
             <button
               className="py-2 px-6 

@@ -5,37 +5,40 @@ import Image from "next/image";
 const Content = () => {
   return (
     <>
-      <main className="bg-[#0D0D0D] py-28">
+      <main className="bg-[#0D0D0D] py">
         <div className="relative">
           <Image
             src={"/contentElements/logos/image1.png"}
             width={147}
             height={160}
+            alt="image2"
             className="absolute bg-no-repeat bg-cover bg-center bg-fixed left-36 top-[220px]"
           />
           <Image
             src={"/contentElements/logos/image2.png"}
             width={147}
+            alt="image44"
             height={160}
             className="absolute  bg-no-repeat bg-cover bg-center top-[80px] right-[100px]"
           />
           <Image
             src={"/contentElements/logos/image3.png"}
             width={147}
+            alt="image8"
             height={160}
             className="absolute  bg-no-repeat bg-cover bg-center right-[400px]"
           />
         </div>
         <Wrapper>
           <div className="flex flex-col lg:flex-row justify-around py-20 px-2 gap-12 z-10">
-            {/* Corrected the gradient classes */}
             <div className="flex flex-col p-10 items-center text-center bg-gradient-to-b from-[#1B1B1B] to-[#0E0E0E] rounded-2xl gap-y-4">
               <Image
                 src={"/contentElements/time.png"}
                 width={56}
+                alt="image11"
                 height={56}
                 className="bg-[#1E66D0] p-2 rounded-lg shadow-xl"
-                style={{ boxShadow: "-12px -10px rgba(30, 102, 208, 0.5)" }}
+                style={{ boxShadow: "-12px -10px rgba(30, 102, 208, 0.9)" }}
               />
               <h1 className="text-2xl font-semibold">Buy Crypto in Seconds</h1>
               <p className="text-sm font-extralight">
@@ -48,6 +51,7 @@ const Content = () => {
               <Image
                 src={"/contentElements/stats1.png"}
                 width={56}
+                alt="image22"
                 height={56}
                 className="bg-[#1E66D0] p-2 rounded-lg shadow-xl"
                 style={{ boxShadow: "-12px -10px rgba(30, 102, 208, 0.5)" }}
@@ -65,6 +69,7 @@ const Content = () => {
               <Image
                 src={"/contentElements/crypto.png"}
                 width={56}
+                alt="image4"
                 height={56}
                 className="bg-[#1E66D0] p-2 rounded-lg shadow-xl"
                 style={{ boxShadow: "-12px -10px rgba(30, 102, 208, 0.5)" }}
