@@ -5,7 +5,7 @@ import Choose from "../../components/widgets/earnpage/Choose"
 import Ways from "../../components/widgets/earnpage/Ways"
 import Growth from "../../components/widgets/earnpage/Growth"
 import Interest from "../../components/widgets/earnpage/Interest"
-import Faq from "../../components/widgets/earnpage/Faq"
+import Faq from "../../components/layout/Faq"
 import LimitedTime from "../../components/widgets/earnpage/LimitedTime"
 import GetStarted from "../../components/widgets/earnpage/GetStarted"
 import NextStep from "../../components/widgets/earnpage/NextStep"
@@ -21,7 +21,6 @@ const page = () => {
         <LimitedTime />
         <GetStarted />
         <NextStep />
-        <Faq />
       </Wrapper>
     </div>
   )

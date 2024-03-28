@@ -45,7 +45,7 @@ const Navbar = () => {
                 <p className="a">Earn</p>
               </button>
               <button
-                onClick={() => router.push("/")}
+                onClick={() => router.push("/exchange")}
                 className="li  z-20"
               >
                 <p className="a">Exchange</p>

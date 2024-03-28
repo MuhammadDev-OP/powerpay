@@ -4,7 +4,9 @@ import HomePage from '../pages/Home'
 export default function Home() {
   return (
     <>
-      <HomePage />
+      <div className='overflow-hidden'>
+        <HomePage />
+      </div>
     </>
 
   )

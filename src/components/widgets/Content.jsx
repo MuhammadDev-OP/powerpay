@@ -30,7 +30,7 @@ const Content = () => {
           />
         </div>
         <Wrapper>
-          <div className="flex flex-col lg:flex-row justify-around py-20 px-2 gap-12 z-10">
+          <div className="flex flex-col lg:flex-row justify-around py-20 px-2 gap-12 z-50">
             <div className="flex flex-col p-10 items-center text-center bg-gradient-to-b from-[#1B1B1B] to-[#0E0E0E] rounded-2xl gap-y-4">
               <Image
                 src={"/contentElements/time.png"}
@@ -38,7 +38,7 @@ const Content = () => {
                 alt="image11"
                 height={56}
                 className="bg-[#1E66D0] p-2 rounded-lg shadow-xl"
-                style={{ boxShadow: "-12px -10px rgba(30, 102, 208, 0.9)" }}
+                style={{ boxShadow: "-12px -10px rgba(30, 102, 208, 0.5)" }}
               />
               <h1 className="text-2xl font-semibold">Buy Crypto in Seconds</h1>
               <p className="text-sm font-extralight">
